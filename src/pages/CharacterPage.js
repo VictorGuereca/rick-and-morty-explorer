@@ -1,5 +1,5 @@
 import React from 'react';
-import { useActionData, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 
 const CharacterPage = () => {
     const { id } = useParams();
