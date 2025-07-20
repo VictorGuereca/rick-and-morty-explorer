@@ -1,7 +1,13 @@
 import React from 'react';
+import CharacterList from '../components/CharacterList';
 
 const HomePage = () => {
-    return <h1>Home Page</h1>;
+    return (
+        <div>
+            <h1>Rick & Morty Explorer</h1>
+            <CharacterList/>
+        </div>
+    );
 };
 
 export default HomePage;
